@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import ScrollProgressBar from './components/scrollProgressBar/ScrollProgressBar';
+import Hero from './components/hero/Hero';
+import About from './components/about/About';
+import TimeLine from './components/timeLine/TimeLine';
+import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact';
+import Blog from './components/blog/Blog';
+import ScrollToTopButton from './components/scrollToTopButton/ScrollToTopButton';
+import Footer from './components/footer/Footer';
+import Loader from './components/loader/Loader';
+import Nav from './components/nav/Nav';
 
-function App() {
+const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {isLoading && <Loader />}
+      {!isLoading && (
+        <div>
+          <ScrollProgressBar />
+          <Nav />
+          <Hero />
+          <About />
+          <TimeLine />
+          <Portfolio />
+          <Contact />
+          <Blog />
+          <ScrollToTopButton />
+          <Footer />
+        </div>
+      )}
     </div>
   );
-}
+};
 
 export default App;
