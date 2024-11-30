@@ -81,14 +81,14 @@ const Contact = () => {
                             <FaMap />
                             <span>
                                 <h3>ADDRESS POINT</h3>
-                                <a href="https://maps.app.goo.gl/SxZDssxSRdDvUqbR6" target='_blank'>Tashkent / Uzbekistan</a>
+                                <a href="https://maps.app.goo.gl/SxZDssxSRdDvUqbR6" target='_blank' rel="noreferrer">Tashkent / Uzbekistan</a>
                             </span>
                         </div>
                         <div className="contact__item-left__box">
                             <FaEnvelope />
                             <span>
                                 <h3>EMAIL ME</h3>
-                                <a href="mirodil.mavlonov.2023@gmail.com" target='_blank'>mirodil.mavlonov.2023@gmail.com</a>
+                                <a href="mirodil.mavlonov.2023@gmail.com" target='_blank' rel="noreferrer">mirodil.mavlonov.2023@gmail.com</a>
                             </span>
                         </div>
                         <div className="contact__item-left__box">

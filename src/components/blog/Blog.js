@@ -7,7 +7,7 @@ const UserList = ({ users }) => {
   return (
       <div className='box'>
         {users.map(user => (
-          <a key={user.id} href={user.link} target="_blank" className='box__content'>
+          <a key={user.id} href={user.link} target="_blank" className='box__content' rel="noreferrer">
             <img src={user.img} alt="" />
             <hr />
             <div className="box__content-info">

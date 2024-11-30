@@ -60,7 +60,7 @@ const Portfolio = () => {
               <div className="portfolio__slide">
                 <img src={item.img} alt={`Portfolio ${index}`} />
                 <div className="portfolio__slide-item">
-                  <a href={item.link} className='portfolio__item-title' target='_blank'>{item.title}</a>
+                  <a href={item.link} className='portfolio__item-title' target='_blank' rel="noreferrer">{item.title}</a>
                   <h3 className='portfolio__item-subtitle'>{item.desc}</h3>
                   <h4 className='portfolio__item-skills'>Technologies used: <b>{item.skills}</b></h4>
                 </div>

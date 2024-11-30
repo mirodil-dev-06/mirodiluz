@@ -35,7 +35,7 @@ const Experince = () => {
                     {education.map((edu, index) => (
                         <div key={index} className="timeline__content">
                             <div className="timeline__item">
-                                <a href={edu.link} target='_blank' className='timeline__item-title'>{edu.company}</a>
+                                <a href={edu.link} target='_blank' rel="noreferrer" className='timeline__item-title'>{edu.company}</a>
                                 <h3 className='timeline__item-subtitle'>{edu.position}</h3>
                                 <p className='timeline__item-year'>{edu.duration}</p>
                                 <p className='timeline__item-desc'>{edu.description}</p>
