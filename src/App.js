@@ -5,7 +5,6 @@ import About from './components/about/About';
 import TimeLine from './components/timeLine/TimeLine';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
-import Blog from './components/blog/Blog';
 import ScrollToTopButton from './components/scrollToTopButton/ScrollToTopButton';
 import Footer from './components/footer/Footer';
 import Loader from './components/loader/Loader';
@@ -32,7 +31,6 @@ const App = () => {
           <TimeLine />
           <Portfolio />
           <Contact />
-          <Blog />
           <ScrollToTopButton />
           <Footer />
         </div>

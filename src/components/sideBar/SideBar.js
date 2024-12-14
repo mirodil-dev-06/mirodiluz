@@ -29,11 +29,6 @@ const SideBar = ({ toggleSidebar }) => {
               </Link>
             </li>
             <li className="sidebar__content-menu__link">
-              <Link to="about" smooth={true} duration={500} onClick={closeSidebar}>
-                About
-              </Link>
-            </li>
-            <li className="sidebar__content-menu__link">
               <Link to="edu" smooth={true} duration={500} onClick={closeSidebar}>
                 Resume
               </Link>
