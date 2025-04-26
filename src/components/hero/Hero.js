@@ -11,8 +11,8 @@ const Hero = () => {
       <Container>
         <div className="hero__content">
           <img src={my_image} alt="man__image" className='hero__content-img' />
-          <h2 className='hero___content-title'>Hi, I'm Mirodil &#128075;</h2>
-          <h1 className='hero___content-subtitle'> <span>building</span>  modern websetis <br /> and web apilications</h1>
+          <h2 className='hero__content-title'>Hi, I'm Mirodil &#128075;</h2>
+          <h1 className='hero__content-subtitle'> <span>building</span>  modern websetis <br /> and web apilications</h1>
           <Link to="contact"> <DefaultButton text='Connect with me'></DefaultButton></Link>
         </div>
       </Container>

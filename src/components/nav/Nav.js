@@ -16,7 +16,7 @@ const Nav = () => {
       <Container>
         <div className="nav__content">
           <div className="nav__logo">
-            <img src={logo1} alt="logo" />
+            <img src={logo1} alt="Portfolio-logo" width='50' height='50' />
           </div>
           <button className="nav__content-bars" onClick={toggleSidebar}>
             <div className="line"></div>

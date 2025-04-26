@@ -16,13 +16,13 @@
         object-fit: cover;
       }
   
-      .hero___content-title {
+      .hero__content-title {
         color: #ffffff;
         font-size: 36px;
         font-weight: 300;
       }
   
-      .hero___content-subtitle {
+      .hero__content-subtitle {
         color: #ffffff;
         font-size: 70px;
         text-align: center;
@@ -59,11 +59,11 @@
   @media screen and (max-width: 1000px) {
     .hero {
       &__content {
-        .hero___content-title {
+        .hero__content-title {
           font-size: 30px;
         }
   
-        .hero___content-subtitle {
+        .hero__content-subtitle {
           font-size: 45px;
         }
       }
