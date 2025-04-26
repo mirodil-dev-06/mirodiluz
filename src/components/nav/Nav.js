@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../../assests/styles/Nav.scss';
 import { Container } from '../../utils/Utils';
-import logo from '../../assests/images/logo.jpg';
+import logo1 from '../../assests/images/logo1.jpg';
 import SideBar from '../sideBar/SideBar';
 
 const Nav = () => {
@@ -16,7 +16,7 @@ const Nav = () => {
       <Container>
         <div className="nav__content">
           <div className="nav__logo">
-            <img src={logo} alt="logo" />
+            <img src={logo1} alt="logo" />
           </div>
           <button className="nav__content-bars" onClick={toggleSidebar}>
             <div className="line"></div>

@@ -6,19 +6,19 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import portfolio1 from '../../assests/images/portfolio1.PNG'
+// import portfolio1 from '../../assests/images/portfolio1.PNG'
 import portfolio2 from '../../assests/images/portfolio2.PNG'
 import portfolio3 from '../../assests/images/portfolio3.PNG'
 
 const Portfolio = () => {
   const portfolio = [
-    {
-      title: "Nike Clone",
-      desc: 'In this project I perfected my knowledge of HTML, CSS, JavaScript',
-      skills: 'HTML, CSS, JavaScript',
-      link: 'https://nikec1one.netlify.app',
-      img: portfolio1
-    },
+    // {
+    //   title: "Nike Clone",
+    //   desc: 'In this project I perfected my knowledge of HTML, CSS, JavaScript',
+    //   skills: 'HTML, CSS, JavaScript',
+    //   link: 'https://nikec1one.netlify.app',
+    //   img: portfolio1
+    // },
     {
       title: "Boostrap Project",
       desc: 'I learned Boostrap, one of the popular CSS frameworks, while building this website.',
