@@ -53,7 +53,7 @@
     }
   
     &__box {
-      border-left: 2px solid #0cb653;
+      border-left: 2px solid #0af886;
       position: relative;
   
       & .timeline__content {
@@ -67,13 +67,13 @@
           left: -10.5px;
           width: 20px;
           height: 20px;
-          background: #0cb653;
+          background: #0af886;
           border-radius: 50%;
         }
   
         & .timeline__item {
           padding: 24px;
-          border: 2px solid #0cb653;
+          border: 2px solid #0af886;
           border-radius: 8px;
           margin-bottom: 32px;
   
@@ -91,7 +91,7 @@
           }
   
           &-year {
-            color: #0cb653;
+            color: #0af886;
             margin-bottom: 10px;
             font-size: 18px;
           }

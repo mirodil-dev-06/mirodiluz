@@ -1,7 +1,7 @@
 .sidebar {
     width: 100%;
     height: 100vh;
-    background-color: #1c1b29;
+    background-color: #091e40;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@
       cursor: pointer;
   
       &:hover {
-        color: #0cb653;
+        color: #0af886;
         transition: .2s linear;
         transform: rotate(360deg);
       }
@@ -52,7 +52,7 @@
             right: 0;
             width: 0%;
             height: 2px;
-            background-color: #0cb653;
+            background-color: #0af886;
             content: '';
             transition: .2s linear;
           }
@@ -63,13 +63,13 @@
             left: 0;
             width: 0%;
             height: 2px;
-            background-color: #0cb653;
+            background-color: #0af886;
             content: '';
             transition: .2s linear;
           }
   
           &:hover {
-            color: #0cb653;
+            color: #0af886;
   
             &::before,
             &::after {
@@ -94,7 +94,7 @@
             cursor: pointer;
   
             &:hover {
-              color: #0cb653;
+              color: #0af886;
               transition: .2s linear;
             }
           }

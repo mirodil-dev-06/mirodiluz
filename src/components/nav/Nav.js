@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../../assests/styles/Nav.scss';
 import { Container } from '../../utils/Utils';
-import logo1 from '../../assests/images/logo1.jpg';
+import logo1 from '../../assests/images/logo1.png';
 import SideBar from '../sideBar/SideBar';
 
 const Nav = () => {

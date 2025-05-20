@@ -12,19 +12,19 @@ const Experince = () => {
 
         },
         {
-            company: 'Boostrap Project',
-            position: 'Frontend',
-            duration: '07/2023 - 08/2023',
-            description: 'I learned Boostrap, one of the popular CSS frameworks, while building this website. In this project, I learned to adapt websites for mobile devices',
-            link: 'https://bootstraployiha.netlify.app',
-
-        },
-        {
             company: 'HairCut Web Site',
             position: 'Frontend',
             duration: '11/2024 - 12/2024',
             description: 'While learning react js I built this project and additionally learned Readux and i18next',
             link: 'https://haircutuz.netlify.app',
+        },
+         {
+            company: 'Osiyo Academy',
+            position: 'SMM Manager',
+            duration: '01/05/2025 - Present',
+            description: 'I am currently working as an SMM manager at Men Osiyo Academy, an educational center. At the moment, I am focusing heavily on targeting and increasing the audience on social media platforms.',
+            link: 'https://t.me/osiy0_academy',
+
         }
     ];
     return (
